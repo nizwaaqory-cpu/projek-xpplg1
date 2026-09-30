@@ -1,0 +1,22 @@
+.kotak{
+    width: 200px;
+    height: 100px;
+    background-color: plum;
+    border-radius: 12px;
+    display: flex;
+    align-content: center ;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto 20px;
+    margin-top: 25px;
+    padding: 40px;
+    border: 4px solid black;
+}
+.atas{
+    width: 100px;
+    margin-bottom: 15px;
+}
+.bawah{
+    display: flex;
+    gap: 15px;
+}

@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+    text-align: center;
+}
+header{
+    text-align: center;
+    background-color: aqua;
+    color:bisque;
+    padding: 20px;
+}
+nav{
+    background-color: cadetblue;
+    text-align: center;
+    padding: 15px;
+}
+nav a{
+    color: bisque;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+nav a:hover{
+    color: bisque;
+}
+main{
+    width: 90%; 
+    margin: auto;
+}
+#beranda{
+    background-color: azure;
+    text-align: center;
+    padding: 50px 30px;
+    margin-top: 25px;
+}
+#Profil,#Kompetensi,#Kontak {
+    background-color: bisque;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 10px
+}
+.kartu{
+    background-color: aqua;
+    padding: 20px;
+    border: 1px solid lightpink;
+    border-radius: 8px;
+}
+.daftar-kompetensi{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.kartu-kompetensi{
+    flex: 1px;
+    min-width: 200px;
+    background-color: aquamarine;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+.kartu-kontak{
+    background-color:blue;
+    text-align: center;
+    padding: 50px 30px;
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+footer{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 13px;
+    font-size: 14px;
+    line-height: 60px;
+    margin-top: 40px;
+}
+.gambar{
+    padding: 13px;
+    margin-top: 40px;
+    width: 400px;
+}
